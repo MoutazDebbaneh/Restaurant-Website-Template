@@ -20,6 +20,10 @@ body {
   letter-spacing: 2px;
 }
 
+.btn:hover {
+  color: var(--bs-yellow) !important;
+}
+
 /* Scrollbar Start */
 
 /* width */
@@ -62,6 +66,10 @@ body {
   margin-right: 0.5em;
 }
 
+.navbar .nav-item a:hover {
+  font-size: 1.25rem;
+}
+
 .head .heading {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -71,6 +79,10 @@ body {
 
 .intro .desc {
   font-size: 1.5rem;
+}
+
+.active {
+  color: var(--bs-yellow) !important;
 }
 
 /* Header End */
@@ -278,6 +290,10 @@ body {
   display: inline-block;
   font-size: 1.5rem;
   color: var(--green);
+}
+
+.social-circle:hover {
+  color: var(--bs-yellow);
 }
 
 .icon-link {
