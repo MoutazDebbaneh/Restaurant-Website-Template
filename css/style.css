@@ -33,11 +33,6 @@ body {
   border-radius: 10px;
 }
 
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: black;
-} */
-
 /* Scrollbar End */
 
 /* Header Start */
@@ -319,6 +314,15 @@ footer {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
+}
+
+.my-linkedin {
+  text-decoration: none;
+  color: white;
+}
+
+.my-linkedin:hover {
+  color: var(--bs-yellow);
 }
 
 /* Footer End */
