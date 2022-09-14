@@ -249,6 +249,19 @@ body {
   line-height: 0;
 }
 
+.social-circle {
+  background-color: var(--blue);
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: var(--green);
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
 /* Quote End */
 
 /* Footer Start */
