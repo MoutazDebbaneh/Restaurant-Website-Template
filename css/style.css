@@ -1,6 +1,6 @@
 :root {
   --blue: #7287ae;
-  --green: #e3ecc2;
+  --cream: #e3ecc2;
   --grey: #504f4f;
   --semi-black: #333333;
 }
@@ -90,7 +90,7 @@ body {
 /* Menu Start */
 
 .menu {
-  background-color: var(--green);
+  background-color: var(--cream);
   /* height: 500px; */
   overflow: auto;
 }
@@ -256,7 +256,7 @@ body {
 /* Quote Start */
 
 .quote {
-  background-color: var(--green);
+  background-color: var(--cream);
 }
 
 .quote-mark {
@@ -289,7 +289,7 @@ body {
   height: 2.5rem !important;
   display: inline-block;
   font-size: 1.5rem;
-  color: var(--green);
+  color: var(--cream);
 }
 
 .social-circle:hover {
