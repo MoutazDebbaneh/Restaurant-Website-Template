@@ -20,6 +20,26 @@ body {
   letter-spacing: 2px;
 }
 
+/* Scrollbar Start */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--bs-yellow);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: black;
+} */
+
+/* Scrollbar End */
+
 /* Header Start */
 
 .head {
@@ -68,11 +88,12 @@ body {
   overflow: auto;
 }
 
-.blue-title {
-  color: var(--blue);
+.menu-title {
+  padding-top: 14rem;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  padding-top: 14rem;
+  color: var(--blue);
+  letter-spacing: 1px;
 }
 
 .dish-info {
