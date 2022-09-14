@@ -1,0 +1,284 @@
+:root {
+  --blue: #7287ae;
+  --green: #e3ecc2;
+  --grey: #504f4f;
+  --semi-black: #333333;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+  background-color: var(--blue) !important;
+  display: block;
+  padding: 1rem 3rem !important;
+  color: white !important;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Header Start */
+
+.head {
+  background-color: var(--blue);
+  z-index: 1;
+  overflow: auto;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.navbar .navbar-brand img {
+  width: 250px;
+}
+
+.navbar .nav-item a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.head .heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  font-size: 3rem;
+}
+
+.intro .desc {
+  font-size: 1.5rem;
+}
+
+/* Header End */
+
+/* Menu Start */
+
+.menu {
+  background-color: var(--green);
+  /* height: 500px; */
+  overflow: auto;
+}
+
+.blue-title {
+  color: var(--blue);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  padding-top: 14rem;
+}
+
+.dish-info {
+  text-align: left;
+}
+
+.dish-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: var(--grey);
+}
+
+.dish-desc {
+  color: var(--grey);
+}
+
+.dish-price {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: var(--grey);
+}
+
+.dish {
+  max-width: 80% !important;
+}
+
+#menu {
+  position: relative;
+  top: -30px;
+}
+
+/* Menu End */
+
+/* Promo Start */
+
+.promo-info {
+  background-color: white;
+}
+
+.promo-content {
+  padding: 8rem 2rem;
+  text-align: left;
+}
+
+.promo-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: var(--semi-black);
+  width: 50%;
+  letter-spacing: 1.5px;
+}
+
+.promo-desc {
+  font-family: "Lato", sans-serif;
+  color: var(--semi-black);
+  width: 70%;
+}
+
+.promo-img-1 {
+  background-image: url(../imgs/order-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  display: block;
+  padding: 25% !important;
+}
+
+.promo-img-2 {
+  background-image: url(../imgs/order-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  display: block;
+  padding: 25% !important;
+}
+
+/* Promo End */
+
+/* Order Start */
+
+.order {
+  background-color: var(--blue);
+}
+
+.order-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.order-circle {
+  color: var(--blue);
+  width: 5rem;
+  height: 5rem;
+}
+
+.order-number {
+  align-self: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.order-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.order-desc {
+  font-family: "Lato", sans-serif;
+  width: 80%;
+  color: white;
+}
+
+/* Order End */
+
+/* Delivery Start */
+
+.delivery {
+  background-image: url("../imgs/delivery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.delivery-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: var(--blue);
+  letter-spacing: 1px;
+}
+
+.delivery-desc {
+  font-family: "Lato", sans-serif;
+  width: 40%;
+  color: var(--blue);
+}
+
+.delivery-btn {
+  font-size: large;
+}
+
+/* Delivery End */
+
+/* Quote Start */
+
+.quote {
+  background-color: var(--green);
+}
+
+.quote-mark {
+  color: var(--blue);
+}
+
+.quote-text {
+  color: var(--blue);
+  font-family: "Lato", sans-serif;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.quote-author {
+  color: var(--blue);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.footer-wave {
+  transform: rotate(180deg);
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* Quote End */
+
+/* Footer Start */
+
+footer {
+  background-color: var(--blue);
+  margin-top: -1px;
+}
+
+.footer-col {
+  text-align: left;
+}
+
+.footer-title {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.footer-desc {
+  color: white;
+  width: 70%;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-text {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* Footer End */
